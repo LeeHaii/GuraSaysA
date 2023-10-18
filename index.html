@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtryGura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="guraAll">
+        <div class="title">Click Gura for an "A!"</div>
+        <div class="counter">
+            <p id="showCounter">I have A! for 0 time!</p>
+        </div>
+        <div class="guraRelative">
+            <div class="guraAbsolute" id="guraAb">
+                <img id="imgGura" src="gura.png" alt="otryiudau">
+            </div>
+        </div>
+        <audio id="aSound" src="gawr-gura-a.mp3"></audio>
+        <div class="Fake"></div>
+    </div>
+    <div class="secret">
+        <p>Secret Button, do not touch</p>
+        <button onclick="openPopup()">>.< </button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <p class="poptext">Rim thương otry lắm !!</p>
+          <video id="video" src="freddy.mp4" controls></video>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
